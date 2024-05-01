@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.nav_icon {
+    gap: 15px;
+    display: flex;
+}
+
+.nav_icon a {
+    color: black;
+}
+
+.nav_menu {
+    gap: 100px;
+    display: flex;
+}
+
+.nav_menu a {
+    color: black;
+}
+
+.shop_banner {
+    background-image: url(../../../public/img/Shop/shopbanner.png);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quality_mein {
+    background-color: #FAF3EA;
+}
